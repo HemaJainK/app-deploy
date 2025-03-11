@@ -12,9 +12,11 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1741701973,,"wq"
+|2,0,1741702920,,"wq"
 :q
-|2,0,1741700995,,"q"
+|2,0,1741702582,,"q"
+:Wq
+|2,0,1741702263,,"Wq"
 
 # Search String History (newest to oldest):
 
@@ -26,42 +28,215 @@
 
 # Registers:
 ""1	LINE	0
-	=======
-|3,1,1,1,1,0,1741701662,"======="
+	      # Add other steps as needed
+|3,1,1,1,1,0,1741702910,"      # Add other steps as needed"
 "2	LINE	0
-	>>>>>>> 2b777e96373d406033f25bd4f7e70987cce88428
-|3,0,2,1,1,0,1741701657,">>>>>>> 2b777e96373d406033f25bd4f7e70987cce88428"
+	        uses: actions/checkout@v2
+|3,0,2,1,1,0,1741702910,"        uses: actions/checkout@v2"
 "3	LINE	0
-	<<<<<<< HEAD
-|3,0,3,1,1,0,1741701652,"<<<<<<< HEAD"
+	      - name: Checkout code
+|3,0,3,1,1,0,1741702910,"      - name: Checkout code"
+"4	LINE	0
+	    steps:
+|3,0,4,1,1,0,1741702910,"    steps:"
+"5	LINE	0
+	# Additional configuration
+|3,0,5,1,1,0,1741702910,"# Additional configuration"
+"6	LINE	0
+	
+|3,0,6,1,1,0,1741702910,""
+"7	LINE	0
+	      run: npm run deploy
+|3,0,7,1,1,0,1741702910,"      run: npm run deploy"
+"8	LINE	0
+	    - name: Deploy Application
+|3,0,8,1,1,0,1741702910,"    - name: Deploy Application"
+"9	LINE	0
+	
+|3,0,9,1,1,0,1741702910,""
+"-	CHAR	0
+	Z
+|3,0,36,0,1,0,1741702784,"Z"
 
 # File marks:
-'0  3  58  ~/github_creds.json
-|4,48,3,58,1741701973,"~/github_creds.json"
-'1  28  4  ~/.github/workflows/deploy-app.yml
-|4,49,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
-'2  3  58  ~/github_creds.json
-|4,50,3,58,1741700995,"~/github_creds.json"
-'3  25  0  ~/.github/workflows/deploy-app.yml
-|4,51,25,0,1741700219,"~/.github/workflows/deploy-app.yml"
-'4  26  0  ~/.github/workflows/deploy-app.yml
-|4,52,26,0,1741700219,"~/.github/workflows/deploy-app.yml"
+'0  29  0  ~/.github/workflows/deploy-app.yml
+|4,48,29,0,1741702920,"~/.github/workflows/deploy-app.yml"
+'1  3  58  ~/github_creds.json
+|4,49,3,58,1741702805,"~/github_creds.json"
+'2  3  17  ~/github_creds.json
+|4,50,3,17,1741702582,"~/github_creds.json"
+'3  3  17  ~/github_creds.json
+|4,51,3,17,1741702488,"~/github_creds.json"
+'4  3  17  ~/github_creds.json
+|4,52,3,17,1741702488,"~/github_creds.json"
 '5  3  58  ~/github_creds.json
-|4,53,3,58,1741700135,"~/github_creds.json"
+|4,53,3,58,1741702265,"~/github_creds.json"
 '6  3  58  ~/github_creds.json
-|4,54,3,58,1741700135,"~/github_creds.json"
+|4,54,3,58,1741702265,"~/github_creds.json"
+'7  3  58  ~/github_creds.json
+|4,55,3,58,1741702265,"~/github_creds.json"
+'8  3  58  ~/github_creds.json
+|4,56,3,58,1741702265,"~/github_creds.json"
+'9  3  58  ~/github_creds.json
+|4,57,3,58,1741701973,"~/github_creds.json"
 
 # Jumplist (newest first):
+-'  29  0  ~/.github/workflows/deploy-app.yml
+|4,39,29,0,1741702920,"~/.github/workflows/deploy-app.yml"
+-'  1  4  ~/.github/workflows/deploy-app.yml
+|4,39,1,4,1741702900,"~/.github/workflows/deploy-app.yml"
+-'  3  58  ~/github_creds.json
+|4,39,3,58,1741702805,"~/github_creds.json"
+-'  3  58  ~/github_creds.json
+|4,39,3,58,1741702805,"~/github_creds.json"
+-'  3  17  ~/github_creds.json
+|4,39,3,17,1741702582,"~/github_creds.json"
+-'  3  17  ~/github_creds.json
+|4,39,3,17,1741702582,"~/github_creds.json"
+-'  3  17  ~/github_creds.json
+|4,39,3,17,1741702488,"~/github_creds.json"
+-'  3  17  ~/github_creds.json
+|4,39,3,17,1741702488,"~/github_creds.json"
+-'  3  58  ~/github_creds.json
+|4,39,3,58,1741702265,"~/github_creds.json"
+-'  3  58  ~/github_creds.json
+|4,39,3,58,1741702265,"~/github_creds.json"
+-'  3  58  ~/github_creds.json
+|4,39,3,58,1741701973,"~/github_creds.json"
 -'  3  58  ~/github_creds.json
 |4,39,3,58,1741701973,"~/github_creds.json"
 -'  28  4  ~/.github/workflows/deploy-app.yml
 |4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
 -'  28  4  ~/.github/workflows/deploy-app.yml
 |4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
+-'  28  4  ~/.github/workflows/deploy-app.yml
+|4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
+-'  28  4  ~/.github/workflows/deploy-app.yml
+|4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
+-'  28  4  ~/.github/workflows/deploy-app.yml
+|4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
+-'  28  4  ~/.github/workflows/deploy-app.yml
+|4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
+-'  28  4  ~/.github/workflows/deploy-app.yml
+|4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
+-'  28  4  ~/.github/workflows/deploy-app.yml
+|4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
+-'  28  4  ~/.github/workflows/deploy-app.yml
+|4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
+-'  28  4  ~/.github/workflows/deploy-app.yml
+|4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
+-'  28  4  ~/.github/workflows/deploy-app.yml
+|4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
+-'  28  4  ~/.github/workflows/deploy-app.yml
+|4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
+-'  28  4  ~/.github/workflows/deploy-app.yml
+|4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
+-'  28  4  ~/.github/workflows/deploy-app.yml
+|4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
+-'  28  4  ~/.github/workflows/deploy-app.yml
+|4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
+-'  28  4  ~/.github/workflows/deploy-app.yml
+|4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
+-'  28  4  ~/.github/workflows/deploy-app.yml
+|4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
+-'  28  4  ~/.github/workflows/deploy-app.yml
+|4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
+-'  28  4  ~/.github/workflows/deploy-app.yml
+|4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
+-'  28  4  ~/.github/workflows/deploy-app.yml
+|4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
+-'  28  4  ~/.github/workflows/deploy-app.yml
+|4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
+-'  28  4  ~/.github/workflows/deploy-app.yml
+|4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
+-'  28  4  ~/.github/workflows/deploy-app.yml
+|4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
+-'  28  4  ~/.github/workflows/deploy-app.yml
+|4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
+-'  28  4  ~/.github/workflows/deploy-app.yml
+|4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
+-'  28  4  ~/.github/workflows/deploy-app.yml
+|4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
+-'  28  4  ~/.github/workflows/deploy-app.yml
+|4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
+-'  28  4  ~/.github/workflows/deploy-app.yml
+|4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
+-'  28  4  ~/.github/workflows/deploy-app.yml
+|4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
+-'  28  4  ~/.github/workflows/deploy-app.yml
+|4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
+-'  28  4  ~/.github/workflows/deploy-app.yml
+|4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
+-'  28  4  ~/.github/workflows/deploy-app.yml
+|4,39,28,4,1741701666,"~/.github/workflows/deploy-app.yml"
 -'  25  0  ~/.github/workflows/deploy-app.yml
 |4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
 -'  25  0  ~/.github/workflows/deploy-app.yml
 |4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
+-'  25  0  ~/.github/workflows/deploy-app.yml
+|4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
+-'  25  0  ~/.github/workflows/deploy-app.yml
+|4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
+-'  25  0  ~/.github/workflows/deploy-app.yml
+|4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
+-'  25  0  ~/.github/workflows/deploy-app.yml
+|4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
+-'  25  0  ~/.github/workflows/deploy-app.yml
+|4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
+-'  25  0  ~/.github/workflows/deploy-app.yml
+|4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
+-'  25  0  ~/.github/workflows/deploy-app.yml
+|4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
+-'  25  0  ~/.github/workflows/deploy-app.yml
+|4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
+-'  25  0  ~/.github/workflows/deploy-app.yml
+|4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
+-'  25  0  ~/.github/workflows/deploy-app.yml
+|4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
+-'  25  0  ~/.github/workflows/deploy-app.yml
+|4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
+-'  25  0  ~/.github/workflows/deploy-app.yml
+|4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
+-'  25  0  ~/.github/workflows/deploy-app.yml
+|4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
+-'  25  0  ~/.github/workflows/deploy-app.yml
+|4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
+-'  25  0  ~/.github/workflows/deploy-app.yml
+|4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
+-'  25  0  ~/.github/workflows/deploy-app.yml
+|4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
+-'  25  0  ~/.github/workflows/deploy-app.yml
+|4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
+-'  25  0  ~/.github/workflows/deploy-app.yml
+|4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
+-'  25  0  ~/.github/workflows/deploy-app.yml
+|4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
+-'  25  0  ~/.github/workflows/deploy-app.yml
+|4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
+-'  25  0  ~/.github/workflows/deploy-app.yml
+|4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
+-'  25  0  ~/.github/workflows/deploy-app.yml
+|4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
+-'  25  0  ~/.github/workflows/deploy-app.yml
+|4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
+-'  25  0  ~/.github/workflows/deploy-app.yml
+|4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
+-'  25  0  ~/.github/workflows/deploy-app.yml
+|4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
+-'  25  0  ~/.github/workflows/deploy-app.yml
+|4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
+-'  25  0  ~/.github/workflows/deploy-app.yml
+|4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
+-'  25  0  ~/.github/workflows/deploy-app.yml
+|4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
+-'  25  0  ~/.github/workflows/deploy-app.yml
+|4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
+-'  25  0  ~/.github/workflows/deploy-app.yml
+|4,39,25,0,1741701627,"~/.github/workflows/deploy-app.yml"
+-'  3  58  ~/github_creds.json
+|4,39,3,58,1741700995,"~/github_creds.json"
+-'  3  58  ~/github_creds.json
+|4,39,3,58,1741700995,"~/github_creds.json"
 -'  3  58  ~/github_creds.json
 |4,39,3,58,1741700995,"~/github_creds.json"
 -'  3  58  ~/github_creds.json
@@ -74,59 +249,58 @@
 |4,39,26,0,1741700219,"~/.github/workflows/deploy-app.yml"
 -'  26  0  ~/.github/workflows/deploy-app.yml
 |4,39,26,0,1741700219,"~/.github/workflows/deploy-app.yml"
--'  1  0  ~/.github/workflows/deploy-app.yml
-|4,39,1,0,1741700210,"~/.github/workflows/deploy-app.yml"
--'  1  0  ~/.github/workflows/deploy-app.yml
-|4,39,1,0,1741700210,"~/.github/workflows/deploy-app.yml"
--'  1  0  ~/.github/workflows/deploy-app.yml
-|4,39,1,0,1741700210,"~/.github/workflows/deploy-app.yml"
--'  1  0  ~/.github/workflows/deploy-app.yml
-|4,39,1,0,1741700210,"~/.github/workflows/deploy-app.yml"
--'  1  0  ~/.github/workflows/deploy-app.yml
-|4,39,1,0,1741700210,"~/.github/workflows/deploy-app.yml"
--'  1  0  ~/.github/workflows/deploy-app.yml
-|4,39,1,0,1741700210,"~/.github/workflows/deploy-app.yml"
--'  3  58  ~/github_creds.json
-|4,39,3,58,1741700135,"~/github_creds.json"
--'  3  58  ~/github_creds.json
-|4,39,3,58,1741700135,"~/github_creds.json"
--'  3  58  ~/github_creds.json
-|4,39,3,58,1741700135,"~/github_creds.json"
--'  3  58  ~/github_creds.json
-|4,39,3,58,1741700135,"~/github_creds.json"
--'  1  0  ~/github_creds.json
-|4,39,1,0,1741700069,"~/github_creds.json"
--'  1  0  ~/github_creds.json
-|4,39,1,0,1741700069,"~/github_creds.json"
--'  1  0  ~/github_creds.json
-|4,39,1,0,1741700069,"~/github_creds.json"
--'  1  0  ~/github_creds.json
-|4,39,1,0,1741700069,"~/github_creds.json"
--'  1  0  ~/github_creds.json
-|4,39,1,0,1741700069,"~/github_creds.json"
--'  1  0  ~/github_creds.json
-|4,39,1,0,1741700069,"~/github_creds.json"
--'  1  0  ~/github_creds.json
-|4,39,1,0,1741700069,"~/github_creds.json"
+-'  26  0  ~/.github/workflows/deploy-app.yml
+|4,39,26,0,1741700219,"~/.github/workflows/deploy-app.yml"
+-'  26  0  ~/.github/workflows/deploy-app.yml
+|4,39,26,0,1741700219,"~/.github/workflows/deploy-app.yml"
+-'  26  0  ~/.github/workflows/deploy-app.yml
+|4,39,26,0,1741700219,"~/.github/workflows/deploy-app.yml"
+-'  26  0  ~/.github/workflows/deploy-app.yml
+|4,39,26,0,1741700219,"~/.github/workflows/deploy-app.yml"
+-'  26  0  ~/.github/workflows/deploy-app.yml
+|4,39,26,0,1741700219,"~/.github/workflows/deploy-app.yml"
+-'  26  0  ~/.github/workflows/deploy-app.yml
+|4,39,26,0,1741700219,"~/.github/workflows/deploy-app.yml"
+-'  26  0  ~/.github/workflows/deploy-app.yml
+|4,39,26,0,1741700219,"~/.github/workflows/deploy-app.yml"
+-'  26  0  ~/.github/workflows/deploy-app.yml
+|4,39,26,0,1741700219,"~/.github/workflows/deploy-app.yml"
+-'  26  0  ~/.github/workflows/deploy-app.yml
+|4,39,26,0,1741700219,"~/.github/workflows/deploy-app.yml"
+-'  26  0  ~/.github/workflows/deploy-app.yml
+|4,39,26,0,1741700219,"~/.github/workflows/deploy-app.yml"
+-'  26  0  ~/.github/workflows/deploy-app.yml
+|4,39,26,0,1741700219,"~/.github/workflows/deploy-app.yml"
+-'  26  0  ~/.github/workflows/deploy-app.yml
+|4,39,26,0,1741700219,"~/.github/workflows/deploy-app.yml"
+-'  26  0  ~/.github/workflows/deploy-app.yml
+|4,39,26,0,1741700219,"~/.github/workflows/deploy-app.yml"
+-'  26  0  ~/.github/workflows/deploy-app.yml
+|4,39,26,0,1741700219,"~/.github/workflows/deploy-app.yml"
+-'  26  0  ~/.github/workflows/deploy-app.yml
+|4,39,26,0,1741700219,"~/.github/workflows/deploy-app.yml"
+-'  26  0  ~/.github/workflows/deploy-app.yml
+|4,39,26,0,1741700219,"~/.github/workflows/deploy-app.yml"
 
 # History of marks within files (newest to oldest):
 
+> ~/.github/workflows/deploy-app.yml
+	*	1741702919	0
+	"	29	0
+	^	29	0
+	.	28	22
+	+	1	25
+	+	1	0
+	+	1	16
+	+	28	22
+
 > ~/github_creds.json
-	*	1741701972	0
+	*	1741702802	0
 	"	3	58
 	^	3	59
-	.	3	59
+	.	3	58
 	+	5	1
 	+	4	23
 	+	4	0
-	+	3	59
-
-> ~/.github/workflows/deploy-app.yml
-	*	1741701665	0
-	"	28	4
-	^	25	0
-	.	28	0
-	+	24	25
-	+	11	0
-	+	32	0
-	+	28	0
+	+	3	113
+	+	3	58

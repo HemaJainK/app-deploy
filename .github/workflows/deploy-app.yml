@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,11 +21,9 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Deploy Application
-      run: npm run deploy
+    - name: Build the app
+      run: npm run build
 
-# Additional configuration
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      # Add other steps as needed
+    - name: Deploy to server
+      run: ./deploy.sh
+
