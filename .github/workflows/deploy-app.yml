@@ -1,9 +1,15 @@
+name: Deploy App
+
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   build:
+    runs-on: ubuntu-latest
     steps:
-      - name: Check out code
+      - name: Checkout code
         uses: actions/checkout@v2
-
-      - name: Set working directory
-        run: cd ./app-deploy
+      # Add other steps as needed
 
